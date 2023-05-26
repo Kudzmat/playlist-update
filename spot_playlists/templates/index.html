@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Image with Bootstrap Button</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-image: url("static/images/back.jpg");
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<div class="container-md">
+  <h1>VIBE CHECK</h1>
+  <h1>ENTER 5 ARTISTS YOU LIKE!</h1>
+</div>
+<div class="container-md">
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.artist1.label() }}
+        {{ form.artist1() }}
+    </p>
+     <p>
+        {{ form.artist2.label() }}
+        {{ form.artist2() }}
+    </p>
+     <p>
+        {{ form.artist3.label() }}
+        {{ form.artist3() }}
+    </p>
+     <p>
+        {{ form.artist4.label() }}
+        {{ form.artist4() }}
+    </p>
+     <p>
+        {{ form.artist5.label() }}
+        {{ form.artist5() }}
+    </p>
+    <div class="text-center">
+    <button class="btn btn-primary">{{ form.submit() }}</button>
+  </div>
+</form>
+</div>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

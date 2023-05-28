@@ -14,3 +14,5 @@ Enter 5 artists that are on your mind and simply "Check Your Vibe."
 Vibe checking takes you to my spotify playlist "Vibe Check" which updates with 5 new songs based on recommendations from the 5 artists entered
 previously.
 It's a fun playlist that is always full of surprises and a good indicator of how I've felt at different moments in time when I updated the playlist!
+
+CHECK OUT THE PLAYLIST HERE: https://open.spotify.com/playlist/138EKhzuYuww8DKcRC69ox?si=1e69e5a2431244f3
